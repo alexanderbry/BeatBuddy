@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 export default function SpotifyPage() {
   function handleSpotifyLogin() {
-    location.href = "http://localhost:3000/users/login/spotify";
+    location.href = "http://13.54.13.234/users/login/spotify";
   }
 
   return (

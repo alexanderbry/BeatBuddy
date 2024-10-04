@@ -81,11 +81,9 @@ export function MainContent() {
           },
         }
       );
-      dispatch(fetchPost());
       dispatch(getSpotifyTracks(posts));
+      dispatch(fetchPost());
     } catch (error) {
-      console.log(error, "<<<<<");
-
       Swal.fire({
         title: error.response?.data.error,
         width: 600,
@@ -178,8 +176,6 @@ export function MainContent() {
       });
     }
   };
-console.log(tracks);
-
   useEffect(() => {
     dispatch(findUser());
     dispatch(fetchPost());

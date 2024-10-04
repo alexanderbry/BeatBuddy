@@ -10,7 +10,7 @@ export default function LoginPage() {
   const navigate = useNavigate();
 
   function handleSpotifyLogin() {
-    location.href = "http://localhost:3000/users/login/spotify";
+    location.href = "http://13.54.13.234/users/login/spotify";
   }
 
   const handleRegularLogin = async (e) => {
@@ -45,7 +45,6 @@ export default function LoginPage() {
       google.accounts.id.initialize({
         client_id: import.meta.env.VITE_GOOGLE_CLIENT_ID,
         callback: async (response) => {
-          console.log("Encoded JWT ID token: " + response.credential);
           try {
             const { data } = await api.post(
               "/users/login/google",
