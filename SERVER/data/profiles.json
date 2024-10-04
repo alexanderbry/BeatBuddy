@@ -1,0 +1,16 @@
+[
+  {
+    "fullName": "John Doe",
+    "spotifyId": "5a2EaR3hamoenG9rDuVn8j",
+    "gender": "Male",
+    "profilePicture": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+    "UserId": 1
+  },
+  {
+    "fullName": "Jane Smith",
+    "spotifyId": "6vWDO969PvNqNYHIOW5v0m",
+    "gender": "Female",
+    "profilePicture": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+    "UserId": 2
+  }
+]

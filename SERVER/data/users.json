@@ -1,0 +1,12 @@
+[
+    {
+      "username": "johndoe",
+      "email": "john.doe@example.com",
+      "password": "hashedpassword123"
+    },
+    {
+      "username": "janesmith",
+      "email": "jane.smith@example.com",
+      "password": "hashedpassword456"
+    }
+  ]
